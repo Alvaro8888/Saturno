@@ -1,0 +1,103 @@
+
+/* Header */
+.main-header{
+	background-color: black;
+	padding: 3px;
+position: absolute;
+
+}
+.main-header2{
+	background-color: #272729;
+	padding: 23px;
+}
+
+.header-wrapper{
+	overflow: hidden;
+}
+
+	.main-menu{
+		margin-left: 120px;
+		margin-top: 15px;
+	}
+		.main-menu a{
+			padding: 0px 20px;
+			border-left: 1px solid #303030;
+		}
+		.main-menu li:first-child a{
+			border-width: 0px;
+		}
+		.main-menu a, .language-menu a{
+			color: white;
+			font-family: 'Open Sans Light', sans-serif;
+			
+			text-decoration: none;
+		}
+			.language-menu a .fa{
+				color: white;
+			}
+
+		.main-menu ul, .main-menu li{
+			display: inline-block;
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+
+	.language-menu{
+		margin-top: 15px;
+	}
+
+
+
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+
+.bg-1{
+	background-color: black;
+}
+.contac{
+	background-color: black;
+}
+.colorT{
+	background-color: yellow;
+}
+
+.servicios{
+	background-color: green;
+	color: orange;
+}
+
+
+.bordetTop{
+    border-top: 12px solid  #FFD700 ;
+}
+.bordetTop1{
+    border-top: 5px solid #f7c300;
+}
+
+.navbar-default {
+    background-color: red;
+    border-color: #e7e7e7;
+}
+
+
+
+.naranjaText{
+	color: orange;
+}
+
+
+
+
+
+
+
+
+

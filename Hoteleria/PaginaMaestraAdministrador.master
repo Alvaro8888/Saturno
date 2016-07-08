@@ -1,0 +1,231 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PaginaMaestraAdministrador.master.cs" Inherits="PaginaMaestraAdministrador" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="footer, address, phone, icons" />
+
+    <title>Hotel nur</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css"/><!-- siempre al principio la fecha -->
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>  <!-- bootstrap 1 -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>  <!-- bootstrap 2 -->
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/contactenos.css"/>  <!-- container -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" /> <!-- letras -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /><!-- bootstrap bootstrap bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/><!-- letras 1 -->
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" /> <!-- letras -->
+    <link rel="stylesheet" href="css/pikaday.css"/><!-- fecha cachorro -->
+    <link rel="stylesheet" href="css/site.css"/><!-- fecha cachorro -->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+
+    <!-- ===================================== Header ========================================== -->
+    <!-- ====================================== Header ========================================================== -->
+    <!-- ======================================= Header========================================================= -->
+    <!-- ======================================= Header========================================================= -->
+
+    <div id="form2" runat="server">
+        <div class=" navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="bordetTop"></div>
+            <div class="bordetTop1"></div>
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="Default.aspx"><span>
+                        </span>Hotel NUR</a>
+                </div>
+
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="HomeAdministrador.aspx">Home</a></li>
+                        <li><a href="RegistroCliente.aspx">Clientes</a></li>
+                        <li><a href="RegistroTipoClientes.aspx">Tipos Clientes</a></li>
+                        <li><a href="RegistroHabitacion.aspx">Habitaciones</a></li>
+                        <li><a href="RegistroTipoHabitacion.aspx">Tipos Habitaciones</a></li>
+                        <li><a href="RegistroEstadias.aspx">Estadias</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== Header fin ========================================== -->
+    <!-- ====================================== Header fin ========================================================== -->
+    <!-- ======================================= Header fin ========================================================= -->
+    <!-- ======================================= Header fin ========================================================= -->
+
+
+
+    <form id="form1" runat="server">
+        <div class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ===================================== footer Inicio ========================================== -->
+    <!-- ====================================== footer Inicio ========================================================== -->
+    <!-- ======================================= footer Inicio ========================================================= -->
+    <!-- ======================================= footer Inicio ========================================================= -->
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Hotel<span>Nur</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Inicio</a> · <a href="#">Habitaciones</a> · <a href="#">Eventos</a> · <a href="#">Ubicacion</a>
+                · <a href="#">Comtactenos</a>
+            </p>
+
+            <p class="footer-company-name">Estudiantes Nur &copy; 2016</p>
+            <br>
+            <p class="footer-company-name">Siguenos en</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+        </div>
+
+
+        <div class="footer-center">
+            <h3><font><font>Nos Ubicamos en</font></font></h3>
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>21 Revolution Street</span> Paris, France</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1 555 123456</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@company.com</a></p>
+            </div>
+            <div>
+                <p>Idioma</p>
+                <p class="footer-links">
+                    <a href="#">Ingles</a> - <a href="#">Frances</a> - <a href="#">Español</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <h3>Hoja informativa</h3>
+                <br>
+                <p class="footer-company-name">Unirse a nuestro boletín de noticias para mantener a ser informado acerca de las ofertas y novedades.</p>
+                <br>
+            </p>
+            <div method="post" action="assets/newsletter.php" name="newsletter_2" id="newsletter_2">
+                <div class="form-group">
+                    <input name="email_newsletter_2" id="email_newsletter_2" type="email" value="" placeholder="Your mail" class="form-control">
+                </div>
+                <font class=""><input type="submit" value="Suscribir" class="btn_1 white" id="submit-newsletter_2" href="#"></font>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <!-- ===================================== footer fin ========================================== -->
+    <!-- ====================================== footer fin ========================================================== -->
+    <!-- ======================================= footer fin ========================================================= -->
+    <!-- ======================================= footer fin ========================================================= -->
+
+    
+<script src="js/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><!-- googleMaps -->
+<script src="js/bootstrap.min.js"></script><!-- bootstrap -->
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script><!-- fecha fecha fecha -->
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script><!-- fecha fecha fecha -->
+<script src="jquery.ui.datepicker-es.js"></script><!-- fecha fecha fecha -->
+
+    <script>
+        $(function () {
+
+            $("#from").datepicker({
+                onClose: function (selectedDate) {
+                    $("#to").datepicker("option", "minDate", selectedDate);
+                }
+            });
+
+            $("#to").datepicker({
+                onClose: function (selectedDate) {
+                    $("#from").datepicker("option", "maxDate", selectedDate);
+                }
+            });
+
+        });
+    </script><!-- fecha fecha fecha -->
+    <!-- =========================================================================================== -->
+    <!-- =========================================================================================== -->
+    <script src="js/pikaday.js"></script>
+        <script>
+            var picker = new Pikaday(
+            {
+                field: document.getElementById('fechaInicio'),
+                firstDay: 1,
+                minDate: new Date(),
+                maxDate: new Date(2020, 12, 31),
+                yearRange: [2000, 2020]
+            });
+        </script><!-- fecha cachorro -->
+
+        <script>
+            var picker = new Pikaday(
+            {
+                field: document.getElementById('fechaFin'),
+                firstDay: 1,
+                minDate: new Date(),
+                maxDate: new Date(2020, 12, 31),
+                yearRange: [2000, 2020]
+            });
+        </script><!-- fecha cachorro -->
+
+</body>
+</html>
